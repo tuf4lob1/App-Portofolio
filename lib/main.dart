@@ -31,8 +31,7 @@ class MainApp extends StatelessWidget {
         '/profilInformatika': (context) => const ProfilInformatikaPage(),
         '/galeri': (context) => const GaleriPage(),
         '/dosen': (context) => const DosenPage(),
-        '/portofolio': (context) => const PortofolioPage(),
-        '/rating': (context) => const RatingPage(),
+       
       },
     );
   }
