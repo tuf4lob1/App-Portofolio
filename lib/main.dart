@@ -26,7 +26,13 @@ class MainApp extends StatelessWidget {
         '/': (context) => const SplashScreen(),
         '/landing': (context) => const LandingPage(),
         '/formClient' : (context) => const FormClientPage(),
-        
+        '/homeClient' : (context) => const HomeClientPage(),
+        '/loginAdmin' : (context) => const HomeAdminPage(),
+        '/profilInformatika': (context) => const ProfilInformatikaPage(),
+        '/galeri': (context) => const GaleriPage(),
+        '/dosen': (context) => const DosenPage(),
+        '/portofolio': (context) => const PortofolioPage(),
+        '/rating': (context) => const RatingPage(),
       },
     );
   }
