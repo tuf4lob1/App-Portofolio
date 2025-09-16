@@ -5,7 +5,6 @@ import 'package:projek_test/page/client/dashboard_client.dart';
 import 'package:projek_test/page/client/form_client.dart';
 import 'package:projek_test/page/client/galeri.dart';
 import 'package:projek_test/page/client/portofolio_mhs.dart';
-import 'package:projek_test/page/client/rating.dart';
 import 'package:projek_test/page/landing_page.dart';
 import 'package:projek_test/splash/splash_screen.dart';
 import 'package:projek_test/page/client/profil_informatika.dart';
@@ -32,7 +31,7 @@ class MainApp extends StatelessWidget {
         '/galeri': (context) => const GaleriPage(),
         '/dosen': (context) => const DosenPage(),
         '/portofolio': (context) => const PortofolioPage(),
-        '/rating': (context) => const RatingPage(),
+        
       },
     );
   }
